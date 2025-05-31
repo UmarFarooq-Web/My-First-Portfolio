@@ -250,9 +250,9 @@
     gap: 5px;
 }
 
-/* .aboutContainer{
+.aboutContainer{
     display: none;
-} */
+}
 
 @media (max-width:570px) {
     
