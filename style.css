@@ -86,6 +86,11 @@
     padding: 20px 10px;
 
     box-shadow: -1px 8px 28px -6px rgba(0, 0, 0, 0.27);
+
+
+     transform: translateY(400px);
+    transition: all 0.5s ease;
+    opacity: 0;
 }
 
 .head {
@@ -252,6 +257,14 @@
 
 .aboutContainer{
     display: none;
+    transform: translateY(400px);
+    transition: all 0.5s ease;
+    opacity: 0;
+}
+
+.show{
+transform: translateY(0px);
+opacity: 1;
 }
 
 @media (max-width:570px) {
